@@ -4,9 +4,9 @@ function App() {
 
   const person = {
     id: 1,
-    name: "Đặng Quang Phú",
-    age: 22,
-    address: "67 Mai Chí Thọ, Thủ Đức, Thành phố Hồ Chí Minh"
+    name: "Dặng Thị Mỹ Hương",
+    age: 21,
+    address: "Quang NAM"
   };
 
   const chao1 = (name) => {
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <h1>Xin chào, đây là bài tập trong React</h1>
 
-      <h2>Tôi là Phú Big City Boiz</h2>
+      <h2>Tôi là girlS</h2>
 
       <button onClick={() => chao1(person.name)}>
         Gọi hàm Chao1
